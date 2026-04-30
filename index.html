@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SmartPath Visualizer - Dijkstra</title>
+    <link rel="stylesheet" href="table.css">
+
+  </head>
+
+  <body>
+    <header>
+      <div class="toolbar">
+        <a href="index.html" class="logo-text"><span>SmartPath</span> Visualizer</a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link active">Dijkstra</a>
+          <a href="bellman.html" class="nav-link">Bellman-Ford</a>
+          <a href="floyd-warshall.html" class="nav-link">Floyd-Warshall</a>
+        </div>
+        <ul class="instructions">
+          <li><strong>Left Click:</strong> Walls</li>
+          <li><strong>"W":</strong> Weights</li>
+          <li><strong>"X":</strong> Stop</li>
+        </ul>
+        <div class="controls">
+          <button type="button" class="premium-btn secondary" onclick="location.reload()">Clear Board</button>
+        </div>
+      </div>
+    </header>
+
+    <h1>Dijkstra's Algorithm</h1>
+    <div class="hero-actions">
+      <button type="button" class="premium-btn large button">Run Algorithm</button>
+    </div>
+  <div class="wrapper">
+
+    <div class="tableDiv">
+      <table id="table"></table>
+    </div>
+</div>
+    <footer class="page-footer">
+        Developed with ❤️ by <strong>Rishabh</strong>
+    </footer>
+  </body>
+
+  <script type="text/javascript" src="Algorithms/dijkstra.js"></script>
+  <script type="text/javascript" src="tables/dijkstraTable.js"></script>
+</html>
