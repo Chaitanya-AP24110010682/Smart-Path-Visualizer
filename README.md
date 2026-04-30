@@ -173,9 +173,8 @@ No external libraries, frameworks, or build tools are used.
 
 ---
 
-## Author
 
-Developed with ❤️ by **Rishabh**
 
-- GitHub: @rerishabh
+
 - Live Demo: https://rerishabh.github.io/SmartPath-Visualizer/
+- 
